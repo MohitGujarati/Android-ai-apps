@@ -134,6 +134,7 @@ fun BakingScreen(
                     bakingViewModel.sendPrompt(bitmap, MainPromt)
                     Log.d("MainActivity", "Button clicked $MainPromt")
                 },
+
                 enabled = prompt.isNotEmpty(),
                 modifier = Modifier
                     .padding(top = 10.dp)
