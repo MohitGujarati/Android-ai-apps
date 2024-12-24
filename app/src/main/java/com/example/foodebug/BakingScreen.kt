@@ -50,6 +50,7 @@ val images = arrayOf(
     // Image generated using Gemini from the prompt "cake images"
     R.drawable.baked_goods_3,
 )
+
 val imageDescriptions = arrayOf(
     R.string.image1_description,
     R.string.image2_description,
